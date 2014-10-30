@@ -19,8 +19,8 @@
 			.active {
 				background-color: #307FB5;
 			}
-			.spacer{
-				height:200px;
+			.section{
+				min-height:600px;
 				}
         </style>
         
@@ -43,57 +43,79 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!--<a class="navbar-brand" href="#"><img src="img/fish.png"></a>-->
+          <a class="navbar-brand" href="#"><img src="img/fish.png"></a>
         </div>
         <div class="navbar-collapse collapse">
-         <ul class="nav navbar-nav">
-        <li id="high1"><a name="#sec1">Bio</a></li>
-        <li id="high2"><a name="#sec2">Research</a></li>
-        <li id="high3"><a name="#sec3">Mentor</a></li>
-        <li id="high4"><a name="#sec4">Teach</a></li>
-        </ul>
+            <ul class="nav navbar-nav">
+                <li id="bioB"><a href="#bio">Bio</a></li>
+                <li id="reaB"><a href="#rea">Research</a></li>
+                <li id="menB"><a href="#men">Mentor</a></li>
+                <li id="teaB"><a href="#tea">Teach</a></li>
+            </ul>
         </div><!--/.navbar-collapse -->
       </div>
-    </div>
+    </div>   
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <!--<h1>Hello, world!</h1>-->
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
+    <div class="container" role="content">
+    
+    	<!-- bio section -->
+        <a name="bio"></a>
+        <div class="row section" id="bio">       
+            <div class="jumbotron">
+                <h1>Dr. Jesse Robert Fischer</h1>                
+                <p><a class="btn btn-default btn-lg" role="button">Learn more &raquo;</a></p>        
+            </div>
+		</div>
+        
+        <!-- reseach section -->
+        <a name="rea"></a>
+		<div class="row section" id="rea">
+        <div class="jumbotron">
+            <h1>Research</h1>
+            <div class="row">
+            <div class="col-lg-6 col-lg-push-6">
+                <h3>Projects</h3>
+                <div class="col-lg-6">
+                <div class="thumbnail"> <img data-src="holder.js/300x300" alt="...">
+                    <div class="caption">
+                        <h4>Ceti</h4>
+                        <p>...</p>
+                    </div><!-- /.caption-->
+                </div><!-- /.thumbnail-->
+                </div><!-- /.col-6-->
+                <div class="col-lg-6">
+                <div class="thumbnail"> <img data-src="holder.js/300x300" alt="...">
+                    <div class="caption">
+                        <h4>Ceti</h4>
+                        <p>...</p>
+                    </div><!-- /.caption-->
+                </div><!-- /.thumbnail-->
+                </div><!-- /.col-6-->
+             </div><!-- /.col-6-->
+             </div><!-- /.row-->
+             
+          </div><!-- /.jumbotron-->
+      	  </div><!-- /.row #tea-->
+        
+        <!-- mentor section -->
+        <a name="men"></a>
+		<div class="row section" id="men">
+        	<div class="jumbotron">
+            <h1>Mentor</h1>
+            <p><a class="btn btn-default btn-lg" role="button">Learn more &raquo;</a></p>  
+            </div>
+		</div>
+        
+        <!-- teach section -->
+        <a name="tea"></a>
+		<div class="row section" id="tea">
+        	<div class="jumbotron">
+            <h1>Teach</h1>
+            <p><a class="btn btn-default btn-lg" role="button">Learn more &raquo;</a></p>  
+            </div>
+		</div>
 
-    <div class="container">
-      <div class="row">
-        <div class="spacer s1" id="sec1">
-			<div class="box2" style="background-color: #8DBBE0;">
-				<p>One</p>
-				<a href="#" class="viewsource">view source</a>
-			</div>
-		</div>
-		<div class="spacer s1" id="sec2">
-			<div class="box2" style="background-color: #6AA6D8;">
-				<p>Two</p>
-				<a href="#" class="viewsource">view source</a>
-			</div>
-		</div>
-		<div class="spacer s1" id="sec3">
-			<div class="box2" style="background-color: #4E96D1;">
-				<p>Three</p>
-				<a href="#" class="viewsource">view source</a>
-			</div>
-		</div>
-		<div class="spacer s1" id="sec4">
-			<div class="box2" style="background-color: #307FB5;">
-				<p>Four</p>
-				<a href="#" class="viewsource">view source</a>
-			</div>
-		</div>
-        <div class="spacer s2"></div>
-        </div>
-      </div>
+      </div><!-- /.container-->
 
       <hr>
 

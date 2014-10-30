@@ -1,23 +1,23 @@
 $(document).ready(function($) {
 				// init controller
-				var controller = new ScrollMagic({globalSceneOptions: {duration: 100}});
+				var controller = new ScrollMagic({globalSceneOptions: {duration: 600}});
 
 				// build scenes
-				new ScrollScene({triggerElement: "#sec1"})
-								.setClassToggle("#high1", "active") // add class toggle
+				new ScrollScene({triggerElement: "#bio"})
+								.setClassToggle("#bioB", "active") // add class toggle
 								.addTo(controller)
-								.addIndicators();
-				new ScrollScene({triggerElement: "#sec2"})
-								.setClassToggle("#high2", "active") // add class toggle
+								//.addIndicators();
+				new ScrollScene({triggerElement: "#rea"})
+								.setClassToggle("#reaB", "active") // add class toggle
 								.addTo(controller)
-								.addIndicators();
-				new ScrollScene({triggerElement: "#sec3"})
-								.setClassToggle("#high3", "active") // add class toggle
+								//.addIndicators();
+				new ScrollScene({triggerElement: "#men"})
+								.setClassToggle("#menB", "active") // add class toggle
 								.addTo(controller)
-								.addIndicators();
-				new ScrollScene({triggerElement: "#sec4"})
-								.setClassToggle("#high4", "active") // add class toggle
+								//.addIndicators();
+				new ScrollScene({triggerElement: "#tea"})
+								.setClassToggle("#teaB", "active") // add class toggle
 								.addTo(controller)
-								.addIndicators();
+								//.addIndicators();
 
 			});
